@@ -38,11 +38,24 @@
     Mod4 + w
 
 
-" nxmessage DuckDuckGo ; chromium   http://duckduckgo.com/  "
+"  screen -d -m nxmessage DuckDuckGo ; chromium   http://duckduckgo.com/  "
     m:0x40 + c:41
     Mod4 + f
 
-" nxmessage FileManager ; cd ; rox  "
+" screen -d -m nxmessage FileManager ; cd ; rox  "
     m:0x40 + c:26
     Mod4 + e
+
+
+
+" amixer  set Master 2+ "
+    m:0x40 + c:111
+    Mod4 + Up
+
+" amixer  set Master 2- "
+    m:0x40 + c:116
+    Mod4 + Down
+
+
+
 
